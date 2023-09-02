@@ -1,5 +1,5 @@
 :root {
-    /* Palette */
+    /* Palette FF1654*/
     --primary-solid: #FF3333;
     --primary-900: rgb(255, 51, 51, 0.9);
     --primary-500: rgb(255, 51, 51, 0.5);
@@ -14,8 +14,17 @@
     --dark-900: rgb(31, 31, 31, 0.9);
     --dark-500: rgb(31, 31, 31, 0.5);
     --dark-300: rgb(31, 31, 31, 0.3);
+    
+    --tertiary-solid: #FF1654;
+    --tertiary-900: rgb(255, 22, 84, 0.9);
+    --tertiary-500: rgb(255, 22, 84, 0.5);
+    --tertiary-300: rgb(255, 22, 84, 0.3);
 
     --dark-bg-solid: #30343F;
+    --dark-bg-900: rgb(48, 52, 63, 0.9);
+    --dark-bg-500: rgb(48, 52, 63, 0.5);
+    --dark-bg-300: rgb(48, 52, 63, 0.3);    
+
     --light-bg-solid: #FAFAFF;
     --light-font-solid: #FFFFFF;
 
