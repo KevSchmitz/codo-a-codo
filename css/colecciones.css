@@ -1,0 +1,44 @@
+@import 'varibles.css';
+
+.colecciones {
+  margin: 10rem;
+}
+.coleccion__card {
+
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  font-family: var(--alternative-font);
+  align-items: center;
+}
+
+.coleccion__card2 img {
+  grid-column: 1/2;
+}
+
+.coleccion__card2>div { 
+  grid-column: 2/3;
+  grid-row: 1/2;  
+}
+
+.coleccion__card-info {
+  border-bottom: var(--primary-solid) solid 2px;
+  margin-bottom: 2rem;
+}
+.coleccion__card-info h3{
+  font-size: var(--font-display);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.coleccion__card-info p{
+  margin-bottom: 1rem;
+}
+
+.coleccion__card button {
+  padding: 1rem 3rem;
+  font-family: var(--alternative-font);
+  text-transform: uppercase;
+  background-color: var(--dark-bg-solid);
+  border-radius: 2rem;
+  color: var(--light-font-solid);
+}
