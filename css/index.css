@@ -6,4 +6,6 @@
 
 @import url("./normalize.css");
 
-@import url("./lanzamientos-section.css")
+@import url("./lanzamientos-section.css");
+
+@import 'colecciones.css'

@@ -11,3 +11,4 @@ En esta primer etapa y mission vamos a crear una estructura HTML de las diferent
 ### Integrantes
 
 [Federico Luna](https://github.com/FedericoLuna01) -
+[Kevin Schmitz](https://github.com/KevSchmitz) -
