@@ -12,11 +12,7 @@
   align-items: center;
 }
 
-.coleccion__card2 img {
-  grid-column: 1/2;
-}
-
-.coleccion__card2>div { 
+.coleccion__card:nth-of-type(even)>div { 
   grid-column: 2/3;
   grid-row: 1/2;  
 }
@@ -35,6 +31,7 @@
 }
 
 .coleccion__card a {
+  display: inline-block;
   padding: 1.5rem 3rem;
   font-family: var(--alternative-font);
   font-size: var(--font-medium);
@@ -42,4 +39,8 @@
   background-color: var(--dark-bg-solid);
   border-radius: 5rem;
   color: var(--light-font-solid);
+}
+.coleccion__card a:hover {
+  cursor: pointer;
+  background-color: var(--dark-solid);
 }
