@@ -6,3 +6,10 @@
 
 @import url("./normalize.css");
 
+@import url("./lanzamientos-section.css");
+
+@import url("./pages/registrar.css");
+
+@import url("./banner.css");
+
+@import url("./componets-css/card-item.css")

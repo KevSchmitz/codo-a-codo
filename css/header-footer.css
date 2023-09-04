@@ -9,9 +9,6 @@ header {
     background-color: var(--dark-bg-solid);
     padding: var(--spacing-36);
 }
-main{
-    padding: var(--spacing-36);
-}
 
 /* Estilos para el BANNER*/
 .banner{
