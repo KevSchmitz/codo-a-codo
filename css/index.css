@@ -12,4 +12,7 @@
 
 @import url("./banner.css");
 
-@import url("./componets-css/card-item.css")
+@import url("./componets-css/card-item.css");
+
+@import url('colecciones.css');
+
