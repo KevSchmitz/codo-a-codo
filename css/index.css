@@ -8,8 +8,7 @@
 
 @import url("./lanzamientos-section.css");
 
-@import url("./pages/registrar.css");
+@import url("./banner.css");
 
-@import url("./components.css/banner.css");
+@import url('./colecciones.css');
 
-@import url("./components.css/card-item.css");
