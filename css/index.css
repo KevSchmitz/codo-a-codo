@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700");
 
 @import url("./header-footer.css");
 
@@ -8,4 +8,6 @@
 
 @import url("./lanzamientos-section.css");
 
-@import 'colecciones.css'
+@import url("./login.css");
+
+@import url("./colecciones.css");
