@@ -1,0 +1,46 @@
+@import 'varibles.css';
+
+.colecciones {
+  margin: 10rem auto;
+
+}
+.coleccion__card {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  font-family: var(--alternative-font);
+  align-items: center;
+}
+
+.coleccion__card:nth-of-type(even)>div { 
+  grid-column: 2/3;
+  grid-row: 1/2;  
+}
+
+.coleccion__card-info {
+  border-bottom: var(--primary-solid) solid 2px;
+  margin-bottom: 2rem;
+}
+.coleccion__card-info h3{
+  font-size: var(--font-display);
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+.coleccion__card-info p{
+  margin-bottom: 1rem;
+}
+
+.coleccion__card a {
+  display: inline-block;
+  padding: 1.5rem 3rem;
+  font-family: var(--alternative-font);
+  font-size: var(--font-medium);
+  text-transform: uppercase;
+  background-color: var(--dark-bg-solid);
+  border-radius: 5rem;
+  color: var(--light-font-solid);
+}
+.coleccion__card a:hover {
+  cursor: pointer;
+  background-color: var(--dark-solid);
+}
