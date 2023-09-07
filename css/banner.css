@@ -1,7 +1,7 @@
 /* Estilos para el BANNER*/
 .banner {
   background-image: url(../../img/funkos-banner.webp);
-  padding: var(--spacing-128);
+  padding: var(--spacing-128) var(--spacing-36);
   background-position: top;
   background-size: cover;
   background-attachment: fixed;

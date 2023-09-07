@@ -33,6 +33,10 @@ p {
     font-size: var(--font-medium);
 }
 
+img{
+    width: 100%;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
