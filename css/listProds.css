@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700');
+
+@import url("./header-footer.css");
+
+@import url("./variables.css");
+
+@import url("./normalize.css");
+
+@import url("./animations.css");
+
+/* SEARCH */
+.search {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.search__img {
+    width: 3rem;
+    margin-top: 4rem;
+}
+
+.search__text {
+    font-family: var(--base-font);
+    font-size: var(--font-medium);
+    border: 2px solid var(--dark-bg-solid);
+    border-radius: 5px;
+    margin-top: 4rem;
+    width: 40rem;
+    color: var(--dark-500);
+    padding-left: var(--spacing-8);
+    cursor: pointer;
+}
+
+/* LIST */
+.listProds__header{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.listProds__header--title {
+    font-size: var(--font-xlarge);
+    font-weight: 700;
+}
+
+.listProds__header--add{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+}
+
+.listProds__header--add--title{
+    font-size: var(--font-large);
+    font-weight: 700;
+    position: relative;
+    left: -4rem;
+}
+
+.listProds__header--add--plus {
+    font-size: var(--font-medium);
+    font-weight: 700;
+    background-color: var(--primary-solid);
+    color: var(--light-font-solid);
+    padding: var(--spacing-8);
+    position: absolute;
+}
+
+.listProds__table{
+    font-family: var(--base-font);
+    margin-left: var(--spacing-20);
+    text-align: left;
+    padding: var(--spacing-20);
+}
+
+.listProds__table--col1{
+    width: 5rem;
+}
+
+.listProds__table--col2{
+    width: 20rem;
+}
+
+.listProds__table--col3{
+    width: 50rem;
+}
+
+.listProds__table--col4{
+    width: 20rem;
+}
+
+.listProds__table--titles{
+    font-size: var(--font-large);
+    font-weight: 700;
+}
+
+.listProds__table--list {
+    font-size: var(--font-medium);
+    font-weight: 500;
+}
+
+.listProds__table--list--row{
+    height: 5rem;
+}
+
+.listProds__table--list--edit{
+    width: 3rem;
+    margin-left: 11rem;
+}
+
+.listProds__table--list--delete{
+    width: 3.3rem;
+    margin-left: 3rem;
+    border: none;
+    cursor: pointer;
+}
