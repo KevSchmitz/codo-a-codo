@@ -12,7 +12,7 @@ if (pagina1.includes("index.html")) {
         </picture>
         <ul class="navbar__menu">
             <li class="navbar__item with-submenu">
-                <a class="navbar__link with-icon" href="./pages/shop/shop.html"><iconify-icon icon="tabler:chevron-down"></iconify-icon>SHOP</a>
+                <a class="navbar__link with-icon" href="./pages/shop.html"><iconify-icon icon="tabler:chevron-down"></iconify-icon>SHOP</a>
                 <ul class="submenu">
                     <li class="submenu__item">
                         <a href="" class="submenu__link">Funkos</a>
@@ -26,13 +26,13 @@ if (pagina1.includes("index.html")) {
                 </ul>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="./pages/shop/contact.html">CONTACTO</a>
+                <a class="navbar__link" href="./pages/contact.html">CONTACTO</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="./pages/shop/login.html">LOGIN</a>
+                <a class="navbar__link" href="./pages/login.html">LOGIN</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__cart" href="./pages/shop/cart.html">
+                <a class="navbar__cart" href="./pages/cart.html">
                     <img src="./img/icons/cart-icon.svg" alt="icono de carrito"></img>
                 </a>
             </li>
@@ -44,13 +44,13 @@ if (pagina1.includes("index.html")) {
     elem.innerHTML = `
     <nav class="navbar container">
         <picture class="navbar__logo">
-            <a href="../../index.html">
-                <img src="../../img/branding/logo_light_horizontal.svg" alt="Isologoyipo de la marca Funkoshop">
+            <a href="../index.html">
+                <img src="../img/branding/logo_light_horizontal.svg" alt="Isologoyipo de la marca Funkoshop">
             </a>
         </picture>
         <ul class="navbar__menu">
             <li class="navbar__item with-submenu">
-                <a class="navbar__link with-icon" href="../../pages/shop/shop.html"><iconify-icon icon="tabler:chevron-down"></iconify-icon>SHOP</a>
+                <a class="navbar__link with-icon" href="./shop.html"><iconify-icon icon="tabler:chevron-down"></iconify-icon>SHOP</a>
                 <ul class="submenu">
                     <li class="submenu__item">
                         <a href="" class="submenu__link">Funkos</a>
@@ -64,14 +64,14 @@ if (pagina1.includes("index.html")) {
                 </ul>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="../../pages/shop/contact.html">CONTACTO</a>
+                <a class="navbar__link" href="./contact.html">CONTACTO</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="../../pages/shop/login.html">LOGIN</a>
+                <a class="navbar__link" href="./login.html">LOGIN</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__cart" href="../../pages/shop/cart.html">
-                    <img src="../../img/icons/cart-icon.svg" alt="icono de carrito"></img>
+                <a class="navbar__cart" href="./cart.html">
+                    <img src="../img/icons/cart-icon.svg" alt="icono de carrito"></img>
                 </a>
             </li>
         </ul>
@@ -89,16 +89,16 @@ if (pagina2.includes("index.html")) {
     <nav class="navbar container">
         <ul class="navbar__item">
             <li class="navbar__item">
-                <a class="navbar__link" href="./pages/shop/shop.html">SHOP</a>
+                <a class="navbar__link" href="./pages/shop.html">SHOP</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="./pages/shop/register.html">REGISTRARSE</a>
+                <a class="navbar__link" href="./pages/registrarse.html">REGISTRARSE</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="./pages/shop/login.html">INGRESAR</a>
+                <a class="navbar__link" href="./pages/login.html">INGRESAR</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="./pages/shop/contact.html">CONTACTO</a>
+                <a class="navbar__link" href="./pages/contact.html">CONTACTO</a>
             </li>
         </ul>
         <picture>
@@ -118,7 +118,7 @@ if (pagina2.includes("index.html")) {
                 <a class="navbar__link" href="./shop.html">SHOP</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="./register.html">REGISTRARSE</a>
+                <a class="navbar__link" href="./registrarse.html">REGISTRARSE</a>
             </li>
             <li class="navbar__item">
                 <a class="navbar__link" href="./login.html">INGRESAR</a>
@@ -128,8 +128,8 @@ if (pagina2.includes("index.html")) {
             </li>
         </ul>
         <picture>
-            <a href="../../index.html">
-                <img src="../../img/branding/logo_light_horizontal.svg" alt="Isologoyipo de la marca Funkoshop">
+            <a href="../index.html">
+                <img src="../img/branding/logo_light_horizontal.svg" alt="Isologoyipo de la marca Funkoshop">
             </a>
         </picture>
     </nav>
