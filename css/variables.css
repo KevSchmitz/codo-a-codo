@@ -14,6 +14,11 @@
     --dark-900: rgb(31, 31, 31, 0.9);
     --dark-500: rgb(31, 31, 31, 0.5);
     --dark-300: rgb(31, 31, 31, 0.3);
+
+    --dark-light-solid: #747474;
+    --dark-light-900: rgb(116, 116, 116, 0.9);
+    --dark-light-500: rgb(116, 116, 116, 0.5);
+    --dark-light-300: rgb(116, 116, 116, 0.3);
     
     --tertiary-solid: #FF1654;
     --tertiary-900: rgb(255, 22, 84, 0.9);
@@ -25,6 +30,12 @@
     --dark-bg-500: rgb(48, 52, 63, 0.5);
     --dark-bg-300: rgb(48, 52, 63, 0.3);    
 
+    /* Otros iconos color #F24E1E */
+    --accent-solid: #F24E1E;
+    --accent-900: rgb(242, 78, 30, 0.9);
+    --accent-500: rgb(242, 78, 30, 0.5);
+    --accent-300: rgb(242, 78, 30, 0.3);
+        
     --light-bg-solid: #FAFAFF;
     --light-font-solid: #FFFFFF;
 
