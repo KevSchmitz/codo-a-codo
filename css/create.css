@@ -17,8 +17,8 @@ label {
   font-size: var(--font-small);
 }
 
-label{
-  font-size: var(--font-medium) !important;
+.form__etiq{
+  font-size: var(--font-medium);
   font-weight: 400;
 }
 
