@@ -1,5 +1,3 @@
-@import url(./index.css);
-
 .form{
   margin-top: var(--spacing-36);
   margin-bottom: var(--spacing-36);
@@ -46,10 +44,10 @@
 
 }
 .form__campo{
-  margin: 0.3rem 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .form__a-link{
   color: var(--secondary-solid);
@@ -68,7 +66,7 @@
   outline: none;
   transition: border 3.3s ease-in-out;
   padding: var(--spacing-8);
-
+  text-align-last: start;
 }
 .form__p{
   font-size: var(--font-medium);
