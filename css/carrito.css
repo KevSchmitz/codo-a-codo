@@ -15,7 +15,7 @@
   display: grid;
   row-gap: var(--spacing-36);
   margin-top: var(--spacing-68);
-  margin-bottom: var(--spacing-128);
+  margin-bottom: var(--spacing-68);
 }
 .grid__headerlista{
   display: grid;
@@ -121,7 +121,7 @@ svg{
 }
 
 /* TITULO RESUMEN */
-.titulo__resumen{
+.resumen{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -136,11 +136,12 @@ svg{
   border-bottom: 5px solid var(--primary-solid);
   margin-bottom: var(--spacing-28);
 }
-/* Convertir todo esta tabla en un grid */
+/* RECIBO */
 .content__recibo{
   display: grid;
   width: 50%;
   height: 300px;
+  gap: var(--spacing-36);
 }
 .recibo__tabla{
   display: flex;
@@ -148,9 +149,9 @@ svg{
   justify-content: space-evenly;
   gap: var(--spacing-20);
   padding: var(--spacing-16);
-  border-radius: 25px;
+  border-radius: 10px;
   background-color: var(--light-bg-solid);
-  box-shadow: 3px 4px 10px -5px rgba(66, 68, 90, 0.25);
+  box-shadow: 3px 4px 10px -5px rgba(66, 68, 90, 0.3);
 }
 .recibo__row1, .recibo__row2, .recibo__row3, .recibo__row4{
   display: flex;
@@ -174,4 +175,19 @@ svg{
 }
 .celda7, .celda8{
   font-size: var(--font-large);
+}
+
+/* Boton Recibo */
+.resumen__boton{
+  background-color: var(--primary-solid);
+  font-size: var(--font-large);
+  font-family: var(--base-font);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: white;
+  border: none;
+  padding: var(--spacing-16);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

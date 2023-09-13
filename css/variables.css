@@ -55,13 +55,13 @@
     --font-xsmall: 1.4em;   /* 14px */
 
     /* Spacings */
-    --spacing-128: 12.8rem;
-    --spacing-68: 6.8rem;
-    --spacing-36: 3.6rem;
-    --spacing-28: 2.8rem;
-    --spacing-24: 2.4rem;
-    --spacing-20: 2.0rem;
-    --spacing-16: 1.6rem;
-    --spacing-12: 1.2rem;
-    --spacing-8: 0.8rem;
+    --spacing-128: 12.8rem; /* 205 px */
+    --spacing-68:   6.8rem; /* 109 px */
+    --spacing-36:   3.6rem; /*  58 px */
+    --spacing-28:   2.8rem; /*  42 px */ 
+    --spacing-24:   2.4rem; /*  38 px */
+    --spacing-20:   2.0rem; /*  32 px */
+    --spacing-16:   1.6rem; /*  26 px */
+    --spacing-12:   1.2rem; /*  19 px */
+    --spacing-8:    0.8rem; /*  13 px */
 }
