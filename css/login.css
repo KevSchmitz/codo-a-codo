@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+  gap: 2rem;
+}
+
+h1 {
+  font-size: var(--font-display);
+  text-transform: uppercase;
+}
+
+.formulario__campo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.formulario__campo input {
+  border: none;
+  border-bottom: var(--primary-solid) 2px solid;
+  margin: 2rem 0;
+  font-size: var(--font-large);
+  padding: .5rem 1rem;
+}
+
+.formulario__campo label {
+  font-size: var(--font-large);
+}
+
+.formulario__ingreso {
+  display: flex;
+  margin-top: 2rem;
+  gap: 4rem;
+  font-size: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.formulario__ingreso input {
+  background-color: var(--primary-solid);
+  color: var(--light-font-solid);
+  padding: 1rem 3rem;
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-small);
+}
+
+.formulario__recordarme {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.formulario__contrasena {
+  font-size: var(--font-small);
+}
+
+.formulario__contrasena:hover {
+  text-decoration: underline;
+  color: var(--primary-solid)
+}

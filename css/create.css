@@ -1,0 +1,60 @@
+.title {
+  font-size: var(--font-jumbo);
+  font-weight: 700;
+  margin-top: 3rem;
+}
+.row {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+input,
+select,
+label {
+  margin-right: 2.5rem;
+  font-size: var(--font-small);
+}
+
+.form__etiq{
+  font-size: var(--font-medium);
+  font-weight: 400;
+}
+
+.select {
+  height: 4.5rem;
+  width: 25rem;
+  border-radius: 0.8rem;
+}
+
+.input-text {
+  border: none;
+  border-bottom: var(--primary-solid) solid 0.2rem;
+  height: 3rem;
+}
+
+.w-1 {
+  width: 5rem;
+}
+.w-2 {
+  width: 13rem;
+}
+.w-3 {
+  width: 30rem;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--primary-900);
+  color: var(--light-font-solid);
+  width: 18rem;
+  height: 4rem;
+}
+
+textarea {
+  width: 80rem;
+}

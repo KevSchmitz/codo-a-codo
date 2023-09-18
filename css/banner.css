@@ -1,0 +1,49 @@
+/* Estilos para el BANNER*/
+.banner {
+  background-image: url(../img/funkos-banner.webp);
+  padding: var(--spacing-128) var(--spacing-36);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.banner::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(2px) brightness(.9);
+}
+.banner__wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-20);
+  align-items: start;
+  z-index: 20;
+  position: relative;
+}
+.banner__h2{
+  font-family: var(--alternative-font);
+  font-size: var(--font-jumbo);
+  color: var(--light-font-solid);
+}
+.banner__txt {
+  font-family: var(--alternative-font);
+  color: var(--light-font-solid);
+  font-size: var(--font-medium);
+}
+.banner__boton {
+  cursor: pointer;
+  display: inline-block;
+  font-size: var(--font-medium);
+  background-color: var(--light-bg-solid);
+  padding: var(--spacing-12) var(--spacing-68);
+  border-radius: 50px;
+  font-weight: 500;
+}
+.banner__boton:hover {
+  background-color: var(--primary-900);
+}
+/* FIN DE BANNER*/
