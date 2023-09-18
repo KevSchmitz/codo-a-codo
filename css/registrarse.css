@@ -1,0 +1,79 @@
+.form{
+  margin-top: var(--spacing-36);
+  margin-bottom: var(--spacing-36);
+}
+.form__cuerpo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-36);
+}
+.form__boton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--spacing-36);
+}
+.form__title{
+  margin-top: var(--spacing-36);
+}
+.form__h1{
+  font-weight: bold;
+  font-size: var(--font-display);
+  margin: auto;
+  width: fit-content;
+}
+.form__subtitle{
+  font-weight: 500;
+  font-size: var(--font-xlarge);
+}
+.form__boton-boton{
+  margin: auto 3rem;
+  padding: var(--spacing-12) var(--spacing-36);
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: var(--primary-solid);
+}
+.form__data{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+
+}
+.form__campo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__a-link{
+  color: var(--secondary-solid);
+}
+.form__label{
+  margin: 0.3rem 2rem 0.3rem 0rem;
+  font-family: var(--base-font);
+  font-weight: 400;
+  font-size: var(--font-large);
+}
+.form__input{
+  font-family: var(--base-font);
+  font-weight: 500;
+  border: none;
+  border-bottom: solid #FF3333 2px;
+  outline: none;
+  transition: border 3.3s ease-in-out;
+  padding: var(--spacing-8);
+  text-align-last: start;
+}
+.form__p{
+  font-size: var(--font-medium);
+  margin-left: .5rem;
+  font-weight: bold;
+}
+.form__checkbox{
+  accent-color: #FF1654;
+  margin-right: var(--spacing-8);
+}
