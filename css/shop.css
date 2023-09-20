@@ -1,0 +1,55 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+main
+{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+
+    align-content: center;
+}
+
+.search_filters
+{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-content: start;
+
+    height: 300px;
+    width: 300px;
+}
+
+.search_filters label
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.search_filters a
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price_range_box label
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.price_range_box input
+{
+    width: 50px;
+}

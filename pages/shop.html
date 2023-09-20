@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+
+    <link rel="stylesheet" href="../css/index.css" />
+</head>
+
+<body>
+
+    <header id="idheader"></header>
+
+    <main>
+
+        <div class="search_filters">
+
+            <form class="search_box" action="">
+                <label for="item_search">Buscar</label>
+                <input type="text" id="item_search" name="item_search">
+            </form>
+
+            <label for="sorting_options">Ordenar por</label>
+            <select name="sorting_options" id="sorting_options">
+                <option value="mayor a menor">Mayor a menor</option>
+                <option value="precio">Precio</option>
+                <option value="reciente">Reciente</option>
+            </select>
+
+            <a>Precio</a>
+            <form class="price_range_box" action="">
+                <label for="min_price_range">Min</label>
+                <input type="number" id="min_price_range" name="min_price_range">
+                <a>-</a>
+                <label for="max_price_range">Max</label>
+                <input type="number" id="max_price_range" name="max_price_range">
+            </form>
+
+            <a>Filtrar</a>
+            <div>
+                <input type="checkbox" id="nuevos" name="nuevos"/>
+                <label for="nuevos">Nuevos</label>
+            </div>
+            
+            <div>
+                <input type="checkbox" id="ofertas" name="ofertas"/>
+                <label for="ofertas">Ofertas</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="edicion_especial" name="edicion_especial"/>
+                <label for="edicion_especial">Edicion_especial</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="edicion_especial" name="edicion_especial"/>
+                <label for="edicion_especial">Edicion_especial</label>
+            </div>
+
+        </div>
+
+        <div class="shop-items">
+
+        </div>
+
+    </main>
+
+    <footer id="idfooter" class="footer"></footer>
+
+    <script src="../js/header-footer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>    
+    
+</body>
+
+</html>
