@@ -65,3 +65,24 @@
   font-size: var(--font-xsmall);
   font-weight: 700;
 }
+
+.glide {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.glide__arrows {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 50%;
+  left: 0;
+}
+
+.glide__arrows button {
+  padding: 0.8rem;
+  border: 1px var(--dark-light-300) solid;
+  background-color: var(--light-bg-solid);
+  border-radius: 5px;
+}
