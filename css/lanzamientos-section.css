@@ -86,3 +86,7 @@
   background-color: var(--light-bg-solid);
   border-radius: 5px;
 }
+
+.glide__arrows button:hover {
+  cursor: pointer;
+}
