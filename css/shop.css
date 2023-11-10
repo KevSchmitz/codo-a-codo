@@ -12,7 +12,7 @@ body
 main
 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     width: 100%;
 
@@ -243,11 +243,6 @@ input::-webkit-inner-spin-button
     text-transform: uppercase;
 
     align-self: self-end;
-}
-
-.item_box img
-{
-
 }
 
 .item_box p
