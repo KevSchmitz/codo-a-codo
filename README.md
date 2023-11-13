@@ -1,4 +1,4 @@
-# Mission #1 - CaC - Grupo N°6
+# Proyecto integrador - CaC - Grupo N°6
 
 En esta primer etapa y mission vamos a crear una estructura HTML de las diferentes vistas del proyecto, utilizando las etiquetas necesarias y teniendo en cuenta la semántica.
 
@@ -9,6 +9,18 @@ En esta primer etapa y mission vamos a crear una estructura HTML de las diferent
 [Web](https://challenge-integrador.vercel.app/)
 
 [Repo](https://github.com/FedericoLuna01/codo-a-codo)
+
+## Instalación
+
+```bash
+  npm i
+```
+
+## Iniciar proyecot
+
+```bash
+  npm run dev
+```
 
 ### Integrantes
 
