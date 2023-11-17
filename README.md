@@ -16,7 +16,7 @@ En esta primer etapa y mission vamos a crear una estructura HTML de las diferent
   npm i
 ```
 
-## Iniciar proyecot
+## Iniciar proyecto
 
 ```bash
   npm run dev
