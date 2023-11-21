@@ -26,10 +26,28 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Import routes
 const mainRoutes = require("./src/routes/MainRouter.js");
+const shopRoutes = require("./src/routes/ShopRouter.js");
+const authRoutes = require("./src/routes/AuthRouter.js");
+const adminRoutes = require("./src/routes/AdminRouter.js");
 
 // ROUTES
 app.use("/", mainRoutes);
+app.use("/", shopRoutes);
+app.use("/", authRoutes);
+app.use("/", adminRoutes);
+
+// DATABASE
+// Import a la base de datos
+const { db } = require("./data/database.js");
+
+// Conexión
+const dbConnection = async () => {
+  await db.authenticate();
+  await db.sync(); // This creates the table if it doesn't exist (and does nothing if it already exists)
+  console.log("Base de datos conectada");
+};
 
 app.listen(port, () => {
+  dbConnection();
   console.log(`Servidor corriende en el puerto ${port}`);
 });

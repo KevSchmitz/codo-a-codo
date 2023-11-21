@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HEAD -->
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <!-- HEADER -->
+    <%- include('./partials/header.ejs') %>
+    <main class="container">
+      <!-- Registrarse -->
+      <div class="form__title">
+        <h1 class="form__h1">CREA TU CUENTA</h1>
+      </div>
+      <form action="#" class="form">
+        <div class="form__cuerpo">
+          <p class="form__subtitle">
+            Completa el formulario para ser parte del mundo de los funkos
+          </p>
+          <div class="form__data">
+            <div class="form__campo">
+              <label class="form__label" for="nombre">Nombre</label>
+              <input
+                class="form__input"
+                type="text"
+                id="nombre"
+                placeholder="acá tu nombre"
+              />
+            </div>
+            <div class="form__campo">
+              <label class="form__label" for="apellido">Apellido</label>
+              <input
+                class="form__input"
+                type="text"
+                id="apellido"
+                placeholder="acá tu apellido"
+              />
+            </div>
+            <div class="form__campo">
+              <label class="form__label" for="correo">Email</label>
+              <input
+                class="form__input"
+                type="email"
+                id="correo"
+                placeholder="ejemplo@email.com"
+              />
+            </div>
+            <div class="form__campo">
+              <label class="form__label" for="contraseña">Contraseña</label>
+              <input
+                class="form__input"
+                type="password"
+                id="contraseña"
+                placeholder="&#11044; &#11044; &#11044; &#11044; &#11044; &#11044; &#11044; &#11044; "
+              />
+            </div>
+            <div class="form__campo">
+              <label class="form__label" for="repetir_contraseña"
+                >Repetir contraseña</label
+              >
+              <input
+                class="form__input"
+                type="password"
+                id="repetir_contraseña"
+                placeholder="&#11044; &#11044; &#11044; &#11044; &#11044; &#11044; &#11044; &#11044; "
+              />
+            </div>
+          </div>
+          <div class="form__boton">
+            <input type="submit" class="form__boton-boton" value="Enviar" />
+            <input type="checkbox" class="form__checkbox" />
+            <p class="form__p">
+              Acepto
+              <a href="#" class="form__a-link"> términos y condiciones</a>
+            </p>
+          </div>
+        </div>
+      </form>
+    </main>
+    <!-- FOOTER -->
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>
