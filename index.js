@@ -38,7 +38,7 @@ app.use("/", adminRoutes);
 
 // DATABASE
 // Import a la base de datos
-const { db } = require("./data/database.js");
+const db = require("./data/database.js");
 
 // Conexión
 const dbConnection = async () => {

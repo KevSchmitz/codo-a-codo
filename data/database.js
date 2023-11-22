@@ -14,4 +14,4 @@ const db = new Sequelize(DBNAME, USERNAME, PASSWORD, {
   dialect: DIALECT,
 });
 
-module.exports = { db };
+module.exports = db;
