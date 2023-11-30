@@ -13,17 +13,17 @@ const {
 } = require("../controllers/ShopControllers.js");
 
 // ROUTES
-router.get("/shop", shopView);
-router.get("/shop", getAllItems);
+router.get("/", shopView);
+router.get("/", getAllItems);
 
-router.get("/shop/item/:id", itemView);
-router.get("/shop/item/:id", getItem);
+router.get("/item/:id", itemView);
+router.get("/item/:id", getItem);
 
-router.post("/shop/item/:id/add", addToCart);
+router.post("/item/:id/add", addToCart);
 
-router.get("/shop/cart", cartView);
-router.get("/shop/cart", getCartItems);
+router.get("/cart", cartView);
+router.get("/cart", getCartItems);
 
-router.post("/shop/cart");
+router.post("/cart");
 
 module.exports = router;

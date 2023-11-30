@@ -11,8 +11,9 @@ const ProductoModel = {
   precio: { type: DataTypes.FLOAT, allowNull: false },
   stock: { type: DataTypes.INTEGER, allowNull: false },
   descuento: { type: DataTypes.INTEGER, allowNull: false },
-  cuotas: { type: DataTypes.STRING, allowNull: false },
-  imagenes: [],
+  cuotas: { type: DataTypes.INTEGER, allowNull: false },
+  imagenCara: { type: DataTypes.STRING, allowNull: false },
+  imagenDorso: { type: DataTypes.STRING, allowNull: false },
 };
 
 const Producto = db.define("products", ProductoModel);

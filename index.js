@@ -32,9 +32,9 @@ const adminRoutes = require("./src/routes/AdminRouter.js");
 
 // ROUTES
 app.use("/", mainRoutes);
-app.use("/", shopRoutes);
-app.use("/", authRoutes);
-app.use("/", adminRoutes);
+app.use("/shop", shopRoutes);
+app.use("/auth", authRoutes);
+app.use("/admin", adminRoutes);
 
 // DATABASE
 // Import a la base de datos

@@ -1,3 +1,5 @@
+const { Producto } = require("../models/Producto");
+
 const adminView = (req, res) => {
   res.render("listProds", { titulo: "ADMIN" });
 };
@@ -6,7 +8,7 @@ const adminView = (req, res) => {
 const createItem = async (req, res) => {
   // TODO: Hacer condición para saber si el objeto ya existe
   const payload = req.body; // Son los datos que obtengo del form
-  await Item.create(payload);
+  await Producto.create(payload);
 };
 const createView = (req, res) => {
   res.render("create", { titulo: "ADMIN - CREATE" });
@@ -19,6 +21,7 @@ const updateItem = async (req, res) => {
   // // Tambien puede hacerse con un filter de JS
   // // const items = await Item.findAll().filter(item => item.id === id)
 };
+
 const editView = (req, res) => {
   res.render("edit", { titulo: "ADMIN - EDIT" });
 };

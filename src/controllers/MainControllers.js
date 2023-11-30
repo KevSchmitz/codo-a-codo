@@ -1,5 +1,17 @@
+const fs = require("fs");
+const productos = JSON.parse(fs.readFileSync("./data/database.json", "utf-8"));
+
 const homeView = (req, res) => {
-  res.render("home", { titulo: "HOME" });
+  const colecciones = [];
+  const existeCategoria = [];
+  productos.forEach((producto) => {
+    if (!existeCategoria.includes(producto.categoria)) {
+      existeCategoria.push(producto.categoria);
+      colecciones.push(producto);
+    }
+  });
+
+  res.render("home", { titulo: "HOME", colecciones: colecciones });
 };
 
 const contactView = (req, res) => {

@@ -11,17 +11,17 @@ const {
   deleteItem,
 } = require("../controllers/AdminControllers.js");
 
-router.get("/admin", adminView);
+router.get("/", adminView);
 
 // CREATE
-router.post("admin/create", createItem);
-router.get("/admin/create", createView);
+router.post("/create", createItem);
+router.get("/create", createView);
 
 // EDIT
-router.put("/admin/edit/:id", updateItem);
-router.get("/admin/edit/:id", editView);
+router.put("/edit/:id", updateItem);
+router.get("/edit/:id", editView);
 
 // DELETE
-router.delete("/admin/edit/:id", deleteItem);
+router.delete("/edit/:id", deleteItem);
 
 module.exports = router;

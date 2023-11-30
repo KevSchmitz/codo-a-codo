@@ -11,13 +11,13 @@ const {
 } = require("../controllers/AuthControllers.js");
 
 //ROUTES
-router.get("/auth/login", loginView);
-router.get("/auth/login", login);
-router.post("/auth/login", login);
+router.get("/login", loginView);
+router.get("/login", login);
+router.post("/login", login);
 
-router.get("/auth/register", registerView);
-router.post("/auth/register", register);
+router.get("/register", registerView);
+router.post("/register", register);
 
-router.get("/auth/logout", logout);
+router.get("/logout", logout);
 
 module.exports = router;
