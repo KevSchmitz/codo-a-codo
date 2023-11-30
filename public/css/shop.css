@@ -1,136 +1,124 @@
 .shop_container {
-    display: flex;
-    flex-direction: row;
-    padding: 5em 0;
+  display: flex;
+  flex-direction: row;
+  padding: 5em 0;
 }
 
 .search_filters {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    justify-content: space-between;
-    align-content: start;
+  justify-content: space-between;
+  align-content: start;
 
-    height: 350px;
-    width: 200px;
+  height: 350px;
+  width: 200px;
 
-    text-transform: uppercase;
-    font-weight: 500;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .search_filters label {
-    font-size: 20px;
+  font-size: 20px;
 }
 
-.search_filters a
-{
-    font-size: 20px;
+.search_filters a {
+  font-size: 20px;
 }
 
 /*BUSCAR-------------------------------------------*/
 
-.search_box
-{
-    display: flex;
-    flex-direction: column;
+.search_box {
+  display: flex;
+  flex-direction: column;
 }
 
-.search_box input
-{
-    border-width: 1px;
-    border-color: black;
-    border-radius: 4px;
+.search_box input {
+  border-width: 1px;
+  border-color: black;
+  border-radius: 4px;
 
-    height: 30px;
+  height: 30px;
 
-    margin-right: 10px;
-    margin-top: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 /*-------------------------------------------------*/
 
 /*ORDENAR POR--------------------------------------*/
 
-.ordenar_por
-{
-    display: flex;
-    flex-direction: column;
+.ordenar_por {
+  display: flex;
+  flex-direction: column;
 }
 
-#sorting_options
-{
-    border-width: 1px;
-    border-color: black;
-    border-radius: 4px;
+#sorting_options {
+  border-width: 1px;
+  border-color: black;
+  border-radius: 4px;
 
-    height: 30px;
+  height: 30px;
 
-    color: grey;
+  color: grey;
 
-    font-size: 15;
+  font-size: 15;
 
-    margin-right: 10px;
-    margin-top: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
 }
 
 /*-------------------------------------------------*/
 
 /*PRECIO-------------------------------------------*/
 
-.precio
-{
-    display: flex;
-    flex-direction: column;
+.precio {
+  display: flex;
+  flex-direction: column;
 }
 
-.price_range_box
-{
-    display: flex;
-    flex-direction: row;
+.price_range_box {
+  display: flex;
+  flex-direction: row;
 
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
-.price_range_box label
-{
-    font-size: 12px;
-    font-weight: 600;
+.price_range_box label {
+  font-size: 12px;
+  font-weight: 600;
 
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
-.price_range_box input
-{
-    border-width: 1px;
-    border-color: black;
-    border-radius: 4px;
+.price_range_box input {
+  border-width: 1px;
+  border-color: black;
+  border-radius: 4px;
 
-    width: 50px;
-    height: 20px;
+  width: 50px;
+  height: 20px;
 
-    margin-right: 10px;
+  margin-right: 10px;
 
-    font-size: 15px;
+  font-size: 15px;
 }
 
 input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button 
-{
+input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 
-::placeholder
-{
-    color: grey;
+::placeholder {
+  color: grey;
 }
 
-.price_range_box a
-{
-    margin-right: 10px;
+.price_range_box a {
+  margin-right: 10px;
 }
 
 /*-------------------------------------------------*/
@@ -138,113 +126,107 @@ input::-webkit-inner-spin-button
 /*CHECKBOX-----------------------------------------*/
 
 .checkbox {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-.checkbox_filters
-{
-    margin-top: 10px;
+.checkbox_filters {
+  margin-top: 10px;
 }
 
 .checkbox_filters div {
-    display: flex;
-    flex-direction: row;
-    margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
 }
 
 .checkbox_filters div input {
-    border-width: 1px;
-    border-color: black;
-    border-radius: 4px;
-    margin-right: 5px;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 4px;
+  margin-right: 5px;
 }
 
 .checkbox_filters div label {
-    font-size: 12px;
-    font-weight: 600;
+  font-size: 12px;
+  font-weight: 600;
 }
 
 /*ITEMS CONTAINER----------------------------------*/
 
 .shop_items_container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-row-gap: 30px;
-    grid-column-gap: 30px ;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  justify-items: center;
 }
 
 .item_box {
-    display: flex;
-    flex-direction: column;
-    height: 430px;
-    width: 300px;
-    justify-content: space-between;
-
+  display: flex;
+  flex-direction: column;
+  height: 430px;
+  width: 300px;
+  justify-content: space-between;
 }
 
-.item_box a
-{
-    display: flex;
-    flex-direction: row;
+.item_box span {
+  display: flex;
+  flex-direction: row;
 
-    justify-content: center;
+  justify-content: center;
 
-    background-color: red;
-    color: white;
+  background-color: red;
+  color: white;
 
-    width: 60px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+  width: 60px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 
-    font-size: 12px;
-    text-transform: uppercase;
+  font-size: 12px;
+  text-transform: uppercase;
 
-    align-self: self-end;
+  align-self: self-end;
 }
 
-.item_box p
-{
-    font-size: 15px;
+.item_box p {
+  font-size: 15px;
 
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
-.item_box h2
-{
-    font-size: 20px;
+.item_box h2 {
+  font-size: 20px;
 
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
-.item_box h3
-{
-    font-size: 12px;
-    color: rgb(4, 151, 209);
+.item_box h3 {
+  font-size: 12px;
+  color: rgb(4, 151, 209);
 
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 /* Pagination */
 .pagination {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    font-size: var(--font-large);
-    gap: .5em;
-    margin: 2em 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: var(--font-large);
+  gap: 0.5em;
+  margin: 2em 0;
 }
 
 .pagination__item {
-    padding: .3em .6em;
-    border: 1px solid #ccc;
-    border-radius: .2em;
+  padding: 0.3em 0.6em;
+  border: 1px solid #ccc;
+  border-radius: 0.2em;
 }
 
 .pagination__item:hover {
-    background-color: #ccc;
-    border-color: var(--primary-900);
+  background-color: #ccc;
+  border-color: var(--primary-900);
 }

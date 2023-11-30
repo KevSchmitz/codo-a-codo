@@ -48,6 +48,6 @@ const dbConnection = async () => {
 };
 
 app.listen(port, () => {
-  dbConnection();
+  // dbConnection();
   console.log(`Servidor corriende en el puerto ${port}`);
 });

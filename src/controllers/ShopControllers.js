@@ -1,12 +1,19 @@
+const fs = require("fs");
+const productos = JSON.parse(fs.readFileSync("./data/database.json", "utf-8"));
+
 const shopView = (req, res) => {
-  res.render("shop", { titulo: "SHOP" });
+  res.render("shop", { titulo: "SHOP", productos });
 };
 const getAllItems = (req, res) => {};
 
 //------
 const itemView = (req, res) => {
   const id = req.params.id;
-  res.render("item", { titulo: `ITEM - ${id}` });
+  const [producto] = productos.filter((producto) => producto.id === Number(id));
+  console.log(id);
+  console.log(productos);
+
+  res.render("item", { titulo: `ITEM - ${id}`, producto: producto });
 };
 const getItem = (req, res) => {};
 
