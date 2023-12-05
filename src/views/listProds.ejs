@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HEAD -->
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <!-- HEADER -->
+    <%- include('./partials/header.ejs') %>
+    <main>
+      <section class="search container">
+        <img
+          src="/img/icons/search_icon.svg"
+          alt="icono lupa"
+          class="search__img"
+        />
+        <input
+          type="text"
+          name="txtSearch"
+          class="search__text"
+          placeholder="código, nombre o categoría"
+        />
+      </section>
+      <section class="listProds container">
+        <article class="listProds__header">
+          <h1 class="listProds__header--title">LISTADO DE PRODUCTOS</h1>
+          <div class="listProds__header--add">
+            <p class="listProds__header--add--title">AGREGAR</p>
+            <a
+              href="/admin/create"
+              target="_self"
+              class="listProds__header--add--plus"
+              >+</a
+            >
+          </div>
+        </article>
+        <div class="listProds__table">
+          <table>
+            <thead>
+              <tr class="listProds__table--titles">
+                <th class="listProds__table--col1">ID</th>
+                <th class="listProds__table--col2">Código</th>
+                <th class="listProds__table--col3">Nombre del Producto</th>
+                <th class="listProds__table--col4">Categoría</th>
+              </tr>
+            </thead>
+            <tbody class="listProds__table--list">
+              <tr class="listProds__table--list--row">
+                <td>1</td>
+                <td>STW001001</td>
+                <td>Baby Yoda Blueball</td>
+                <td>STAR WARS</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>STW001002</td>
+                <td>Boba Fett Fighter</td>
+                <td>STAR WARS</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>STW001003</td>
+                <td>Luke Skywalker & Grogu</td>
+                <td>STAR WARS</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>STW001004</td>
+                <td>Stormtrooper Lightsaber</td>
+                <td>STAR WARS</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>PKM001001</td>
+                <td>Charmander Smiley</td>
+                <td>POKEMON</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>PKM001002</td>
+                <td>Dragonite Hi!</td>
+                <td>POKEMON</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>PKM001003</td>
+                <td>Pidgeotto Flying</td>
+                <td>POKEMON</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>PKM001004</td>
+                <td>Pikachu Smiley</td>
+                <td>POKEMON</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>PKM001005</td>
+                <td>Vulpix Fancy</td>
+                <td>POKEMON</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>HPT001001</td>
+                <td>Harry Potter & Hegwid</td>
+                <td>HARRY POTTER</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>HPT001002</td>
+                <td>Herminione Ball Dress</td>
+                <td>HARRY POTTER</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>HPT001003</td>
+                <td>Luna Lovegood Lion Mask</td>
+                <td>HARRY POTTER</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+              <tr class="listProds__table--list--row">
+                <td>13</td>
+                <td>HPT001004</td>
+                <td>Snape Patronus</td>
+                <td>HARRY POTTER</td>
+                <td>
+                  <a href=""
+                    ><img
+                      class="listProds__table--list--edit"
+                      src="/img/icons/edit_pencil.svg"
+                      alt="ícono lápiz para edición"
+                  /></a>
+                </td>
+                <td>
+                  <button type="button" class="listProds__table--list--delete">
+                    <img
+                      src="/img/icons/delete_trash.svg"
+                      alt="ícono basura para eliminar"
+                    />
+                  </button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>

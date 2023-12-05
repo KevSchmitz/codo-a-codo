@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HEAD -->
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <!-- HEADER -->
+    <%- include('./partials/header.ejs') %>
+    <main>
+      <article class="container">
+        <h1 class="title">Crear Nuevo Item</h1>
+      </article>
+      <section class="container">
+        <form action="#">
+          <div class="row">
+            <label class="form__etiq" for="">Categoria: </label>
+            <select class="select" name="" id="">
+              <option selected="true" disabled="disabled">Seleccionar</option>
+              <option value="">Option 1</option>
+              <option value="">Option 2</option>
+              <option value="">Option 3</option>
+            </select>
+            <label class="form__etiq" for="">Licencia: </label>
+            <select class="select" name="" id="">
+              <option selected="true" disabled="disabled">Seleccionar</option>
+              <option value="">Option 1</option>
+              <option value="">Option 2</option>
+              <option value="">Option 3</option>
+            </select>
+          </div>
+          <div class="row">
+            <label class="form__etiq" for="">Nombre del Producto:</label>
+            <input
+              class="input-text w-3"
+              type="text"
+              placeholder="Kakashi Hatake Shippuden Saga"
+            />
+          </div>
+
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Descripcion del Producto"
+          ></textarea>
+
+          <div class="row">
+            <label class="form__etiq" for="">SKU: </label>
+            <input
+              class="input-text w-2"
+              type="text"
+              placeholder="SSK111AB001"
+            />
+
+            <label class="form__etiq" for="">Precio: </label>
+            <input
+              class="input-text w-2"
+              type="text"
+              placeholder="$ 0.000,00"
+            />
+
+            <label class="form__etiq" for="">Stock: </label>
+            <input class="input-text w-1" type="text" placeholder="0" />
+          </div>
+
+          <div class="row">
+            <label for="">Descuento: </label>
+            <input class="input-text w-1" type="text" placeholder="0%" />
+
+            <label class="form__etiq" for="">Cuotas: </label>
+            <select class="select" name="" id="">
+              <option value="">3 Cuotas Sin Interes</option>
+              <option value="">6 Cuotas Sin Interes</option>
+              <option value="">12 Cuotas Sin Interes</option>
+            </select>
+          </div>
+          <div class="row">
+            <label class="form__etiq" for="">Imágenes</label>
+            <input type="file" name="" id="" />
+          </div>
+          <div class="row">
+            <input class="btn" type="submit" value="Agregar Producto" />
+            <input class="btn" type="reset" value="Limpiar" />
+          </div>
+        </form>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <%- include('./partials/footer.ejs') %>
+  </body>
+</html>
