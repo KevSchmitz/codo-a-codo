@@ -16,13 +16,13 @@ if (pagina1.includes("index.html")) {
 elem.innerHTML = `
     <nav class="navbar container">
         <picture class="navbar__logo">
-            <a href="` + ruta1 + `index.html">
+            <a href="` + ruta1 + `home">
                 <img src="` + ruta1 + `img/branding/logo_light_horizontal.svg" alt="Isologoyipo de la marca Funkoshop">
             </a>
         </picture>
         <ul class="navbar__menu">
             <li class="navbar__item with-submenu">
-                <a class="navbar__link with-icon" href="` + ruta2 + `shop.html"><iconify-icon icon="tabler:chevron-down"></iconify-icon>SHOP</a>
+                <a class="navbar__link with-icon" href="` + ruta2 + `shop"><iconify-icon icon="tabler:chevron-down"></iconify-icon>SHOP</a>
                 <ul class="submenu">
                     <li class="submenu__item">
                         <a href="" class="submenu__link">Funkos</a>
@@ -36,13 +36,13 @@ elem.innerHTML = `
                 </ul>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="` + ruta2 + `contact.html">CONTACTO</a>
+                <a class="navbar__link" href="` + ruta2 + `contact">CONTACTO</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="` + ruta2 + `login.html">LOGIN</a>
+                <a class="navbar__link" href="` + ruta2 + `login">LOGIN</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__cart" href="` + ruta2 + `cart.html">
+                <a class="navbar__cart" href="` + ruta2 + `cart">
                     <img src="` + ruta1 + `img/icons/cart-icon.svg" alt="icono de carrito"></img>
                 </a>
             </li>
@@ -68,20 +68,20 @@ elem.innerHTML = `
     <nav class="navbar container">
         <ul class="navbar__item">
             <li class="navbar__item">
-                <a class="navbar__link" href="` + ruta2 + `shop.html">SHOP</a>
+                <a class="navbar__link" href="` + ruta2 + `shop">SHOP</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="` + ruta2 + `registrarse.html">REGISTRARSE</a>
+                <a class="navbar__link" href="` + ruta2 + `registrarse">REGISTRARSE</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="` + ruta2 + `login.html">INGRESAR</a>
+                <a class="navbar__link" href="` + ruta2 + `login">INGRESAR</a>
             </li>
             <li class="navbar__item">
-                <a class="navbar__link" href="` + ruta2 + `contact.html">CONTACTO</a>
+                <a class="navbar__link" href="` + ruta2 + `contact">CONTACTO</a>
             </li>
         </ul>
         <picture>
-            <a href="` + ruta1 + `index.html">
+            <a href="` + ruta1 + `home">
                 <img src="` + ruta1 + `img/branding/logo_light_horizontal.svg" alt="Isologoyipo de la marca Funkoshop">
             </a>
         </picture>

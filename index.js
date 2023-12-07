@@ -5,6 +5,10 @@ const app = express();
 // PATH
 const path = require("path");
 
+// DOTENV (para variables de entorno)
+const dotenv = require("dotenv");
+dotenv.config();
+
 // PUERTO
 const port = process.env.PORT || 3030; //process.env.PORT es para las variables de entorno
 

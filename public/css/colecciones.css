@@ -40,5 +40,5 @@
 }
 .coleccion__card a:hover {
   cursor: pointer;
-  background-color: var(--dark-solid);
+  background-color: var(--primary-900);  
 }
