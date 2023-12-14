@@ -11,7 +11,7 @@ const homeView = (req, res) => {
     }
   });
 
-  res.render("home", { titulo: "HOME", colecciones: colecciones });
+  res.render("home", { titulo: "CaC - Home", colecciones: colecciones });
 };
 
 const contactView = (req, res) => {
