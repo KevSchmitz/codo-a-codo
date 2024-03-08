@@ -1,35 +1,19 @@
-# Proyecto integrador - CaC - Grupo N°6
+### 1. Iniciar XAMPP
 
-En esta primer etapa y mission vamos a crear una estructura HTML de las diferentes vistas del proyecto, utilizando las etiquetas necesarias y teniendo en cuenta la semántica.
+### 2. Configurar la BBDD con tus credenciales
 
-## Links importantes
+### 3. Abrir dos consolas
 
-[Diseño](https://www.figma.com/file/IjTSeE2BpRd5Gk9VakNIhC/Challenge-Integrador---Funkoshop?type=design&node-id=0%3A1&mode=design&t=gmtnCAgPmvu10Fct-1)
+##### OJO: Asegurarse que ambas consolas estén en la carpeta raíz del proyecto.
 
-[Web](https://challenge-integrador.vercel.app/)
+#### 1er consola
 
-[Repo](https://github.com/FedericoLuna01/codo-a-codo)
+`cd frontend >> npm run dev`
 
-## Instalación
+#### 2da consola
 
-```bash
-  npm i
-```
+`cd backendPrueba >> npm run dev`
 
-## Setup de .env
+### 4. Abrir el navegador
 
-```js
-  PORT = <variable>
-```
-
-## Iniciar proyecto
-
-```bash
-  npm run dev
-```
-
-### Integrantes
-
-[Federico Luna](https://github.com/FedericoLuna01) -
-[Kevin Schmitz](https://github.com/KevSchmitz) -
-[Fernando Jaleh](https://github.com/FerJGit) -
+### 5. Agregar las licencias desde la base de datos (MYSQL WorkBench, Tableplus, la que utilices), y asegurarte de crear la carpetaa de esa licencia en `public/img/carpeta-nombre-licencia` ya que multer no crea la carpeta, solo crea el archivo de la imagen en la carpeta previamente creada (No supe nunca como hacer para que también creara la carpeta).
